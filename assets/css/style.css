@@ -53,8 +53,13 @@
     hsl(118, 100%, 45%), 
     hsl(119, 100%, 13%)
   );
+  .bandera {
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    z-index: 9999;
+}
 
-  /* solid */
 
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
