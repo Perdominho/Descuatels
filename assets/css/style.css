@@ -1,4 +1,4 @@
-
+ 
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
@@ -51,8 +51,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(118, 100%, 45%), 
-    hsl(119, 100%, 13%)
+    hsl(238, 100%, 45%), 
+    hsl(178, 91%, 43%)
   );
   .bandera {
     position: fixed;
@@ -69,9 +69,9 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(127, 100%, 23%);
+  --orange-yellow-crayola: hsl(199, 100%, 50%);
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
+  --light-gray: hsl(202, 92%, 20%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
@@ -198,7 +198,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: rgb(3, 80, 18);
+  color: rgb(0, 98, 255);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -896,7 +896,7 @@ main {
 
 .filter-select {
   background: var(--eerie-black-2);
-  color: var(--light-gray);
+  color: whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -933,7 +933,7 @@ main {
 
 .select-item button {
   background: var(--eerie-black-2);
-  color: var(--light-gray);
+  color: whitesmoke;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   text-transform: capitalize;
@@ -1632,7 +1632,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     transition: var(--transition-1);
   }
 
-  .filter-item button:hover { color: var(--light-gray-70); }
+  .filter-item button:hover { color: whitesmoke; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
