@@ -1276,21 +1276,36 @@
   }
 </style>
 
+
 <section class="contact-form">
   <h3 class="h3 form-title">Formulario de contacto</h3>
 
   <form action="https://formspree.io/f/mjkvbnvd" method="POST">
+    
     <label>
-      <input type="Name" name="Name" class="form-input" placeholder="Tu nombre" required data-form-input>
+      <input type="text" name="Name" class="form-input" placeholder="Tu nombre" required data-form-input>
     </label>
 
     <label>
-      <input type="number" name="phone" class="form-input" placeholder="Teléfono" required data-form-input>
+      <input type="tel" name="phone" class="form-input" placeholder="Teléfono" required data-form-input>
     </label>
 
     <label>
       <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
     </label>
+
+    <!-- Campo de selección obligatorio añadido -->
+    <label for="reason">¿Cuál es el motivo de tu consulta?</label>
+    <select id="reason" name="reason" class="form-input" required data-form-input>
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="Contratar vuestros servicios">Contratar vuestros servicios</option>
+      <option value="Saber más acerca de vuestro trabajo">Saber más acerca de vuestro trabajo</option>
+      <option value="Colaborar con la Asociación Alberto 3 huevos">Colaborar con la Asociación Alberto 3 huevos</option>
+      <option value="Unirme al Club Desokupa">Unirme al Club Desokupa</option>
+      <option value="Saber como patrocinaros">Saber cómo patrocinaros</option>
+      <option value="Comprar un producto de la tienda">Comprar un producto de la tienda</option>
+      <option value="Otros">Otros</option>
+    </select>
 
     <label>
       <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
@@ -1304,7 +1319,8 @@
 </section>
 
 
-      </article>
+        
+</article>
 
     </div>
 
